@@ -1,0 +1,8 @@
+# API Key
+api_key=
+
+# File download limit
+limit=20000000
+
+# Path to local music files (not currently in use)
+path=

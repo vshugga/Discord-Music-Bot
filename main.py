@@ -37,7 +37,7 @@ def get_properties():
                 bot_token = line[8:]
             elif line.startswith('path='):
                 local_files = line[5:]
-            elif line.startswith('limit=')
+            elif line.startswith('limit='):
                 size_limit = line[6:]
 
 # When the bot is ready, recieve commands
@@ -97,7 +97,7 @@ async def play(ctx, url:str, codec='mp3', quality='192'):
 # !queue; Queue audio to be played
 @client.command(pass_context = True)
 async def queue(ctx, url:str, codec='mp3', quality='192'):
-    '''Queue a song to be played next'''
+    '''Queue a song to be played next (under development)'''
     pass
 
 # !pause; Pause audio

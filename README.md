@@ -7,4 +7,4 @@ Plays audio from youtube using yt-dlp (fork of youtube-dl)
 - yt_dlp
 
 ## Usage:
-Update properties.txt to include your API key and run main.py
+Update properties.txt to include your API key and run main.py. Sidenote: properties.txt values must not contain any whitespace
